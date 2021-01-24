@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Description:
+  Garaz application stack. Allow to mirror resources from mobile device memory
+  to S3 bucket.
+
+Resources:
+  garaz:
+    Type: AWS::IAM::User
